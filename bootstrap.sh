@@ -42,6 +42,10 @@ echo "==============================================================="
    
 # Install Maven
 sudo apt install -y maven
+echo "==============================================================="
+echo "==============================================================="
+echo "Maven installed" 
+echo "===============================================================" 
 #mvn -version
 
 # getting the springboot applications
@@ -53,6 +57,6 @@ echo "COMMAND 5"
 echo "==============================================================="
 echo "==============================================================="
 echo "==============================================================="
-sudo mvn -f /tmp/spring-boot/spring-boot-samples$ cd spring-boot-sample-web-ui/pom.xml clean install
+sudo mvn -f /tmp/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/pom.xml clean install
 
 
