@@ -57,6 +57,10 @@ echo "COMMAND 5"
 echo "==============================================================="
 echo "==============================================================="
 echo "==============================================================="
-sudo mvn -f /tmp/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/pom.xml clean install
+#sudo mvn -f /tmp/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/pom.xml clean install
 
+sudo mvn -f /tmp/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/pom.xml clean install 
+sudo cp /tmp/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/target/*jar . 
+sudo cp /tmp/POC/Dockerfile .
+sudo docker build -t web-ui .
 
