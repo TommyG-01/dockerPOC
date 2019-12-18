@@ -59,8 +59,8 @@ echo "==============================================================="
 echo "==============================================================="
 #sudo mvn -f /home/ubuntu/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/pom.xml clean install
 
-sudo mvn -f /home/ubuntu/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/pom.xml clean install 
-sudo cp /home/ubuntu/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/target/*jar . 
-sudo cp /home/ubuntu/POC/Dockerfile .
-sudo docker build -t web-ui .
+#sudo mvn -f /home/ubuntu/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/pom.xml clean install 
+#sudo cp /home/ubuntu/spring-boot/spring-boot-samples/spring-boot-sample-web-ui/target/*jar . 
+#sudo cp /home/ubuntu/POC/Dockerfile .
+#sudo docker build -t web-ui .
 
