@@ -1,13 +1,16 @@
-version: "3.5"
+version: "3.7"
 services:
   app-web-static:
     build:
       context: .
       dockerfile: Dockerfile
       target: app-web-static
-                                      
+    ports:
+      - "8080:8000"
   app-web-ui:
     build:
       context: .
       dockerfile: Dockerfile
       target: app-web-ui
+    ports:
+      - "8080:8080"
