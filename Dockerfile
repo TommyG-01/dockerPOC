@@ -11,3 +11,7 @@ WORKDIR /web-static
 COPY *.war web-static.jar
 CMD exec java -jar web-static.jar
 EXPOSE 8080
+
+FROM haproxy:2.0.7
+WORKDIR /usr/local/etc/haproxy
+COPY haproxy.cfg haproxy.cfg
