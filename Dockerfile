@@ -2,7 +2,7 @@
 FROM  openjdk:alpine as app-web-ui
 WORKDIR /web-ui
 COPY *.jar web-ui.jar
-CMD exec java -jar web-ui.jar
+CMD exec java -jar web-ui.jar --server.servlet.context-path=/app-web-ui
 EXPOSE 8080
 
 #App 2 - web static
