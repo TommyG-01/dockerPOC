@@ -24,8 +24,8 @@ The applications are built locally on Docker Host server and copied to the conta
 
 To see the running applications:
 
-<EC2-DNS-ADDRESS>:9000
+EC2-DNS-ADDRESS:9000
 and
-<EC2-DNS-ADDRESS>:9000/app-web-ui
+EC2-DNS-ADDRESS:9000/app-web-ui
 
 
