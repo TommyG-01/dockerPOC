@@ -3,7 +3,7 @@ Basic information
 The PoC combines AWS, Terraform and Docker. 
 Docker Host is built as AWS EC2 instance and terraform was used to:
 - build the EC2 insance,
-- create correct Security Groups (allow traffic o port 9000),
+- create correct Security Groups (allow traffic on port 9000),
 - execute the bootstrap script.
 
 Once terraform code is applied, the Spring Boot example applications should be up and running within a few minutes. 
